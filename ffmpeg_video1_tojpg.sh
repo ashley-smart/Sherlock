@@ -8,4 +8,4 @@ ml system
 ml ffmpeg
 
 
-ffmpeg -i 'oak\stanford\groups\trc\data\Ashley2\PER\10022019\Video1.m4v' -filter:v "crop=2322:1812:81:189" 'oak\stanford\groups\trc\data\Ashley2\PER\10022019\analysis\Video1\V01frame%%07d.jpg'
+ffmpeg -i '\oak\stanford\groups\trc\data\Ashley2\PER\10022019\Video1.m4v' -filter:v "crop=2322:1812:81:189" '\oak\stanford\groups\trc\data\Ashley2\PER\10022019\analysis\Video1\V01frame%%07d.jpg'
