@@ -7,7 +7,7 @@
 ml system
 ml ffmpeg
 
-mkdir 'oak/stanford/groups/trc/data/Ashley2/PER/10022019/analysis/Video_testmk'
+mkdir 'oak/stanford/groups/trc/data/Ashley2/PER/10022019/analysis/Videotestmk'
 
 ffmpeg -i 'oak/stanford/groups/trc/data/Ashley2/PER/10022019/Video_2.m4v' -filter:v "crop=2322:1812:81:189" 'oak/stanford/groups/trc/data/Ashley2/PER/10022019/analysis/Video_2/V02frame_%%07d.jpg'
 
