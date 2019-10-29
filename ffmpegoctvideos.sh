@@ -7,15 +7,7 @@
 ml system
 ml ffmpeg
 
-mkdir '/oak/stanford/groups/trc/data/Ashley2/PER/10042019/analysis'
-mkdir '/oak/stanford/groups/trc/data/Ashley2/PER/10042019/analysis/Video_1'
-mkdir '/oak/stanford/groups/trc/data/Ashley2/PER/10042019/analysis/Video_2'
-mkdir '/oak/stanford/groups/trc/data/Ashley2/PER/10042019/analysis/Video_3'
-mkdir '/oak/stanford/groups/trc/data/Ashley2/PER/10042019/analysis/Video_4'
-mkdir '/oak/stanford/groups/trc/data/Ashley2/PER/10042019/analysis/Video_5'
-mkdir '/oak/stanford/groups/trc/data/Ashley2/PER/10042019/analysis/Video_6'
-mkdir '/oak/stanford/groups/trc/data/Ashley2/PER/10042019/analysis/Video_7'
-mkdir '/oak/stanford/groups/trc/data/Ashley2/PER/10042019/analysis/Video_8'
+
 
 
 ffmpeg -i '/oak/stanford/groups/trc/data/Ashley2/PER/10042019/Video_1_BasleracA2440-35um22467982_20191004_102032237.m4v'  '/oak/stanford/groups/trc/data/Ashley2/PER/10042019/analysis/Video_1/V01frame_%07d.jpg'
