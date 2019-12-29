@@ -10,4 +10,4 @@ ml system
 ml ffmpeg
 
 
-ffmpeg -i '/oak\stanford\groups\trc\data\Ashley2\PER\20191210\Video_1_Basler acA2440-35um (22467982)_20191210_101617447.m4v' -vf fps=1/5 'oak\stanford\groups\trc\data\Ashley2\PER\20191210\analysis\Video1\V01frame_%%07d.jpg'
+ffmpeg -i '/oak\stanford\groups\trc\data\Ashley2\PER\20191210\Video_1.m4v' -vf fps=1/5 'oak\stanford\groups\trc\data\Ashley2\PER\20191210\analysis\Video1\V01frame_%%07d.jpg'
